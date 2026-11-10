@@ -1,0 +1,15 @@
+/* Local code theme: no extra font or stylesheet CDN requests. */
+.message-body pre{position:relative;background:#202331;color:#e2e8f0;border:1px solid #363c50;box-shadow:0 5px 18px #15182712;tab-size:4}
+.message-body pre code,.message-body pre code.hljs{display:block;padding:0;background:transparent;color:#e2e8f0;font-size:12px;white-space:pre;overflow-wrap:normal}
+.message-body .hljs-comment,.message-body .hljs-quote{color:#929db7;font-style:italic}
+.message-body .hljs-keyword,.message-body .hljs-selector-tag,.message-body .hljs-literal,.message-body .hljs-type{color:#c8a4f8}
+.message-body .hljs-string,.message-body .hljs-regexp,.message-body .hljs-addition,.message-body .hljs-template-tag{color:#a9d99c}
+.message-body .hljs-number,.message-body .hljs-symbol,.message-body .hljs-bullet,.message-body .hljs-attr{color:#f2c38f}
+.message-body .hljs-title,.message-body .hljs-section,.message-body .hljs-built_in,.message-body .hljs-selector-id{color:#8dcdf0}
+.message-body .hljs-variable,.message-body .hljs-template-variable,.message-body .hljs-deletion,.message-body .hljs-name{color:#efa3ad}
+.message-body .hljs-meta,.message-body .hljs-link,.message-body .hljs-selector-class{color:#7ed5cc}
+.message-body .hljs-emphasis{font-style:italic}.message-body .hljs-strong{font-weight:700}
+.clear-chat{display:flex;align-items:center;justify-content:center;gap:8px;width:100%;margin:0 0 15px;padding:9px 12px;border:1px solid var(--line);border-radius:8px;background:transparent;color:var(--secondary);font-size:11px}
+.clear-chat .icon{width:15px;height:15px}.clear-chat:hover:not(:disabled){background:var(--purple-light);color:var(--purple)}.clear-chat:disabled{opacity:.4}
+.message.assistant.streaming .message-body{min-height:25px}
+.message.assistant.streaming .message-body::after{content:"▍";color:var(--purple);font-size:13px;animation:pulse 1s infinite}
